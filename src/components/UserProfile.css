@@ -1,0 +1,61 @@
+
+nav {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    text-align: center;
+  }
+  
+  header {
+    text-align: center;
+    padding: 1em;
+  }
+  button{
+    background-color: orange;
+    padding: 10px;
+    border-radius: 15%;
+  }
+  section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .profile img {
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .posts {
+    width: 100%; 
+  }
+  
+  .post {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+
+  @media (min-width: 768px) {
+    .posts {
+      width: 60%;
+    }
+  
+    .profile {
+      flex-direction: row;
+    }
+  
+    .profile img {
+      margin-bottom: 0;
+      margin-right: 10px;
+    }
+  }
+  
