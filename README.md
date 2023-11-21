@@ -1,4 +1,6 @@
 # Getting Started with Create React App
+# Click the below link to check the hosted website on netlify
+# https://relaxed-moonbeam-fd9c20.netlify.app/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
